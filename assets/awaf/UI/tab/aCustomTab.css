@@ -1,0 +1,109 @@
+/* for the main Tab */
+.s_tab_handle	{
+	height:41px; 
+	margin:0px; padding:0px;
+	background: #1b1b1b; 
+}
+  
+.s_tab_handle .s_tab {
+	float:left;
+	cursor:pointer;
+	padding:13px 5px 10px;
+	color: #FFF;
+	margin: 0px 0px 0px 8px;
+	vertical-align: middle;
+}
+
+.s_tab_handle .hover { color: #FF0; }
+
+.s_tab_handle .selected {
+	color: #CF3;
+	background: url(../img/tm.png) no-repeat center 32px;
+}
+
+.s_tab_content {
+	clear:both;
+	background: #EEEFF0;
+	height:100%;
+	padding: 0px; 
+	margin-top: 0px;
+}
+
+.s_tab_content .s_tab_pane{
+     
+}
+
+/* ==================================== */
+
+.m_tab_handle	{
+	margin: 0px;
+	padding: 0px 0px 0px 15px;
+	background: #EEEFF0; 
+}
+
+.m_tab_handle .m_tab {
+	float: left;
+	cursor: pointer;
+	padding: 7px 7px 4px 3px;
+	position: relative;
+	color: #7E7E7E;
+	text-shadow: #FFF 0px 1px 1px;
+	border-radius: 4px 4px 0 0;
+	margin: 8px 2px -1px;
+	font-size: 13px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	/*border-bottom-color: #000;*/
+	background: #d9dbde;
+	border-bottom-style: none;
+}
+
+.m_tab_handle .hover{ color: #333; text-shadow:none; background:transparent;} 
+
+/*.m_tab_handle .selected{
+	color: #000;
+	background: #FFF;
+	text-shadow:#fff 0px 1px 1px; 
+	border: 1px solid #A7A7A7; 
+}*/
+
+.m_tab_handle .selected{
+	color: #000;
+	/*border: 1px solid #A7A7A7;*/
+	padding: 7px 7px 5px 3px;
+	background: #fff; 
+}
+
+.m_tab_content {
+	box-shadow:#CCC 0px 0px 5px;
+	/*border-top:1px solid #D6D6D6;*/
+	border-top:1px solid #e0e0e0;
+	clear:both;
+	background: #FFF;
+	height:100%;
+	overflow:auto;
+	margin: 0px 5px 0px 0px;
+}
+
+/*.m_tab_content */.m_tab_pane{ padding: 5px 0px 0px; }
+
+/*& general ---- */
+
+.tabloading	{ 
+	padding-right:2px;
+	background: url(../img/loading.gif) no-repeat left center; 	
+}
+
+.tab_ref_higlight10	{
+	opacity: 0 !important;
+	filter: alpha(opacity=0) !important;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0) !important;   
+}
+.tab_ref_higlight30	{
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);   
+}
+
+._logo	{ font-weight: bold; }

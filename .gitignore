@@ -1,0 +1,13 @@
+*/_notes
+_notes
+pwd.cfm
+*/temp/*
+Thumbs.db
+doc/*
+WEB-INF/
+
+assets/awaf/tags/xUploader_1000/temp/
+
+\.DS_Store
+bk
+.vscode

@@ -1,0 +1,100 @@
+/*
+DataTable CSS
+Unless specified most of the properties can be changed to achieve a custom look...
+*/
+.moo-table {  
+}
+
+.moo-table table {
+	width: 100% !important;
+	padding: 0;
+	margin: 0;
+	border-spacing: 0;
+	text-align: left;
+	padding: 0;
+	border-collapse: collapse;
+	border-spacing:0; 
+}
+
+.moo-table table thead th {
+	font-weight: normal;
+	padding: 4px 3px 4px 5px;
+	cursor: pointer;
+	font-weight: bold;
+	border-bottom: 1px solid #E9E9E9;
+	background: #E9E9E9;
+	text-shadow:white 1px 1px 1px;
+}
+
+/*.moo-table table thead th.moo-active-column {	
+	background: #E9E9E9;
+	text-shadow:white 1px 1px 1px;
+}
+
+.moo-table table thead th.moo-active-asc {
+	background: url(../img/asc.gif) 2px center no-repeat;
+}
+
+.moo-table table thead th.moo-active-desc {
+	background: url(../img/desc.gif) 2px center no-repeat;
+}*/
+
+.moo-table table tbody tr {
+	background: #fff;
+	text-shadow:none;
+}
+
+.moo-table table tbody tr.moo-table-even {
+ 
+}
+
+.moo-table table tbody tr:hover {
+	background: #FFFFE6;
+	text-shadow:white 1px 1px 1px;
+ 
+}
+
+.moo-table table tbody td {
+	padding: 4px 4px 4px 7px;
+	border-bottom: 1px solid #E9E9E9;
+	text-shadow:none;
+}
+
+.moo-table table tbody tr.moo-table-last td {
+	border: none;
+}
+
+.moo-table tfoot {  
+	padding: 3px;
+}
+
+.moo-table tfoot a {
+ 
+}
+
+.moo-table tfoot span.moo-foot-left {
+	float: left;
+	padding-left: 8px;
+}
+
+.moo-table tfoot span.moo-foot-right {
+	float: right;
+	padding-right: 8px;
+}
+
+.moo-table tfoot span.moo-foot-right a {
+	margin-right: 3px;
+	text-decoration: none;
+}
+
+.moo-table tfoot span.moo-foot-right a:hover {
+ 
+}
+
+.moo-table tfoot span.moo-foot-right span {
+	margin-right: 3px;
+}
+
+.moo-table tfoot span.moo-foot-right span.moo-active-page {
+	font-weight: bold; 
+}

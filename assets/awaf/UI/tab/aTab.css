@@ -1,0 +1,95 @@
+/* for the main Tab */
+.tab_handle	{
+	height:20px;
+	margin-left: 4px;
+	
+}
+
+.tab_handle .tab {
+	float:left;
+	height:17px;
+	cursor:pointer;
+	padding:2px 10px;
+	border-bottom:1px solid #898C95;
+	position:relative;
+	top:1px;
+	border-top: 1px solid #898C95;
+	border-right: 1px solid #898C95;
+	border-left: 1px solid #898C95;
+	background: #CFCFCF url(../img/tab-m.gif) repeat-x top;
+	margin-top: 3px;
+}
+
+.tab_handle .hover {
+	background: #A7D9F5 url(../img/tab-mo.gif) repeat-x top;
+	margin-top: 3px;
+	border: 1px solid #3C7FB1;
+}
+
+.tab_handle .selected {
+	background: #FFF;
+	height:20px;
+	margin-top: 0px;
+	border-bottom: 1px solid #FFF;
+	padding: 2px 13px;
+}
+
+.tab_content {
+	border:1px solid #898C95;	
+	clear:both;
+	background: #FFF;
+	height:100%;
+}
+
+.tab_content .tab_pane{
+    margin:10px;
+}
+
+/* ==================================== 
+
+.tab_handle	{
+	height:20px;
+	margin-left: 4px;
+}
+
+.tab_handle .tab {
+	float:left;
+	height:17px;
+	cursor:pointer;
+	padding:2px 10px;
+	border-bottom:1px solid #898C95;
+	position:relative;
+	top:1px;
+	border-top: 1px solid #898C95;
+	border-right: 1px solid #898C95;
+	border-left: 1px solid #898C95;
+	background: #CFCFCF url(../img/tab-m.gif) repeat-x top;
+	margin-top: 3px;
+}
+
+.tab_handle .hover {
+	background: #A7D9F5 url(../img/tab-mo.gif) repeat-x top;
+	margin-top: 3px;
+	border: 1px solid #3C7FB1;
+}
+
+.tab_handle .selected {
+	background: #FFF;
+	height:20px;
+	margin-top: 0px;
+	border-bottom: 1px solid #FFF;
+	padding: 2px 13px;
+}
+
+.tab_content {
+	border:1px solid #898C95;	
+	clear:both;
+	background: #FFF;
+	height:100%;
+}
+
+.tab_content .tab_pane{
+    margin:10px;
+}
+
+=============================*/
