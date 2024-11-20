@@ -11,3 +11,4 @@ assets/awaf/tags/xUploader_1000/temp/
 \.DS_Store
 bk
 .vscode
+Application.cfc
